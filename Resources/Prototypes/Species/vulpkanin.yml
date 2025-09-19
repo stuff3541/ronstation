@@ -1,4 +1,4 @@
-# Contains modifications made by Ronstation contributors, therefore this file is subject to MIT sublicensed with AGPL v3.0. Due to how extensive and unpredictable map modifications can become, annotations could not be provided.
+## Modified by Ronstation contributor(s), therefore this file is licensed as MIT sublicensed with AGPL-v3.0.
 - type: species
   id: Vulpkanin
   name: species-name-vulpkanin
