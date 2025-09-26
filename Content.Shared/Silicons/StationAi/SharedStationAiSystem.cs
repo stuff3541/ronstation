@@ -312,7 +312,7 @@ public abstract partial class SharedStationAiSystem : EntitySystem
             if (heldComp.CurrentConnectedEntity != null)
             {
                 var ev = new ChatNotificationEvent(_downloadChatNotificationPrototype, args.Used, args.User);
-                RaiseLocalEvent(held, ref ev);
+                RaiseLocalEvent(held.Value, ref ev);
             }
         // Corvax-Next-AiRemoteControl-End
 

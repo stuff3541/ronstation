@@ -34,8 +34,10 @@ public sealed class StationAiOverlay : Overlay
 
     private IRenderTexture? _staticTexture;
     private IRenderTexture? _stencilTexture;
+    private Dictionary<Color, Color> _sRGBLookUp = new(); // Ronstation - modification.
     private readonly OverlayResourceCache<CachedResources> _resources = new();
     private float _updateRate = 1f / 30f;
+    private float _accumulator;
 
     public StationAiOverlay()
     {
