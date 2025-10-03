@@ -16,8 +16,8 @@
   id: MobVulpkaninSprites
   sprites:
     Head: MobVulpkaninHead
-    Hair: MobHumanoidAnyMarking
-    FacialHair: MobHumanoidAnyMarking
+    Hair: MobVulpMarkingFollowSkin
+    FacialHair: MobVulpMarkingFollowSkin
     Snout: MobHumanoidAnyMarking
     SnoutCover: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
@@ -76,6 +76,11 @@
     Legs:
       points: 6
       required: false
+
+- type: humanoidBaseSprite
+  id: MobVulpMarkingFollowSkin
+  markingsMatchSkin: true
+  layerAlpha: 0.9
 
 - type: humanoidBaseSprite
   id: MobVulpkaninEyes
