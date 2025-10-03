@@ -475,7 +475,7 @@
     Sigh:
       collection: MaleSigh
     Scream:
-      collection: VulpkaninScreams
+      collection: MaleScreams # Ronstation - Modification
     Growl:
       collection: VulpkaninGrowls
     Snarl:
@@ -503,7 +503,7 @@
     Sigh:
       collection: FemaleSigh
     Scream:
-      collection: VulpkaninScreams
+      collection: FemaleScreams
     Growl:
       collection: VulpkaninGrowls
     Snarl:
