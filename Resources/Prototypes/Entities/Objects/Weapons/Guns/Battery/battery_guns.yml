@@ -615,6 +615,7 @@
     slots:
     - Belt
   - type: Gun
+    fireRate: 0.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/taser.ogg
   - type: ProjectileBatteryAmmoProvider
@@ -625,6 +626,7 @@
     steps: 5
     zeroVisible: true
   - type: Appearance
+  - type: PacifismAllowedGun
 
 - type: entity
   name: elite taser
@@ -836,6 +838,8 @@
   - type: Appearance
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+  - type: Contraband # Ronstation
+    allowedDepartments: [Security] # Ronstation
   - type: Gun
     fireRate: 2
     soundGunshot:
