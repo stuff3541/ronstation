@@ -10,6 +10,18 @@
   metabolisms:
     Narcotic:
       effects:
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.15
+        sprintSpeedModifier: 1.15
+      - !type:ChemVomit
+        probability: 0.02
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectStunned
+        time: 0.75
+        type: Remove
+      - !type:ModifyKnockdown
+        time: 0.75
+        type: Remove
       - !type:GenericStatusEffect
         key: StaminaModifier
         component: StaminaModifier
@@ -34,8 +46,8 @@
       metabolismRate: 0.2
       effects:
       - !type:MovespeedModifier
-        walkSpeedModifier: 1.15
-        sprintSpeedModifier: 1.15
+        walkSpeedModifier: 1.25
+        sprintSpeedModifier: 1.25
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
@@ -48,12 +60,11 @@
         conditions:
           - !type:ReagentThreshold
             min: 8
-      - !type:GenericStatusEffect
-        key: Stun
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectStunned
         time: 1
         type: Remove
-      - !type:GenericStatusEffect
-        key: KnockedDown
+      - !type:ModifyKnockdown
         time: 1
         type: Remove
       - !type:GenericStatusEffect
