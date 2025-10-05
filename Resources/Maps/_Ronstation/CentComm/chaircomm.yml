@@ -4,7 +4,7 @@ meta:
   engineVersion: 267.1.0
   forkId: ""
   forkVersion: ""
-  time: 10/05/2025 16:06:15
+  time: 10/05/2025 16:22:51
   entityCount: 5019
 maps: []
 grids:
@@ -1712,7 +1712,7 @@ entities:
       pos: 25.5,6.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -114286.54
+      secondsUntilStateChange: -114386.32
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1724,7 +1724,7 @@ entities:
       pos: 27.5,6.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -114372.64
+      secondsUntilStateChange: -114472.42
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1736,7 +1736,7 @@ entities:
       pos: 26.5,6.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -114285.67
+      secondsUntilStateChange: -114385.45
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1847,7 +1847,7 @@ entities:
       pos: 26.5,-20.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9006.875
+      secondsUntilStateChange: -9106.66
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8888,12 +8888,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 21.5,15.5
       parent: 1
-  - uid: 1447
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 3.5,-16.5
-      parent: 1
   - uid: 1448
     components:
     - type: Transform
@@ -8932,7 +8926,8 @@ entities:
   - uid: 1454
     components:
     - type: Transform
-      pos: 5.5,-15.5
+      rot: 3.141592653589793 rad
+      pos: 3.5,-16.5
       parent: 1
   - uid: 1455
     components:
@@ -22994,6 +22989,13 @@ entities:
     components:
     - type: Transform
       pos: 18.5,21.5
+      parent: 1
+- proto: KitchenSpike
+  entities:
+  - uid: 1447
+    components:
+    - type: Transform
+      pos: 5.5,-15.5
       parent: 1
 - proto: KnifePlastic
   entities:
