@@ -126,7 +126,7 @@ namespace Content.IntegrationTests.Tests
             "Atlas3",
             "Feint",
             // Centcomm maps
-            "BudgetCentComm"
+            "BudgetCentComm",
 			"ChairComm"
             // Ronstation - end of modifications.
         };
