@@ -18,3 +18,7 @@
   id: TerminalStation
   background: /Textures/Ronstation/LobbyScreens/terminalstation.webp
   
+- type: lobbyBackground
+  id: HalcyonDays
+  background: /Textures/Ronstation/LobbyScreens/halcyondays.webp
+  
