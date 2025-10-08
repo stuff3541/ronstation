@@ -13,12 +13,7 @@
 - type: lobbyBackground
   id: JanitorialDuties
   background: /Textures/Ronstation/LobbyScreens/janitorialduties.webp
-  
+
 - type: lobbyBackground
   id: TerminalStation
   background: /Textures/Ronstation/LobbyScreens/terminalstation.webp
-  
-- type: lobbyBackground
-  id: HalcyonDays
-  background: /Textures/Ronstation/LobbyScreens/halcyondays.webp
-  
